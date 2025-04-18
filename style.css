@@ -1,0 +1,82 @@
+.contactbutton {
+    margin-left: 1300px;
+    border-radius: 50%;
+}
+.homebutton{
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.aboutbutton{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+body{
+    background-color: grey;
+}
+.para{
+    text-align: center;
+    margin-top: 200px;
+}
+.profile img{
+    border-radius: 50%;
+    width: 100px;
+
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+}
+.profiletext{
+    margin-right: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid black;
+    width: 0;
+    animation: typing 3s steps(20) alternate infinite, blink 0.7s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0; }
+    to { width: 17ch; } 
+  }
+  
+
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+.about{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight:bolder;
+}
+.contact{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight:bolder;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+   
+  }
+  .navbar button a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 50%;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  #home {
+    position: relative;
+    top: -60px; 
+    height: 1px;
+  }
